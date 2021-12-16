@@ -22,6 +22,23 @@ namespace RegexPattern
         public bool validateLastName(string lname)
         {
             return Regex.IsMatch(lname, LAST_NAME_REGEX);
+
         }
+        public static string REGEX_EMAIL = "^[a-zA-Z0-9.]+@[A-Za-z0-9]+.[A-Za-z]{2,4}$";
+
+        //Method for email address
+        public bool valiadtaeEmail(string email)
+        {
+            return Regex.IsMatch(email, REGEX_EMAIL);
+        }
+        public static string REGEX_MOBILENUMBER = "^+[1-9]{2}|: :| |0-9|{10}$";
+
+
+        // method for valid phone number
+        public bool validateMobileNumber(string mnumber)
+        {
+            return Regex.IsMatch(mnumber, REGEX_MOBILENUMBER);
+        }
+
     }
 }

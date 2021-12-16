@@ -9,6 +9,13 @@ namespace RegexPattern
             // Console.WriteLine(pattern.validateFirstName("Raj"));
 
             Console.WriteLine(pattern.validateLastName("Roy"));
+
+           // string a = Console.ReadLine();
+
+           // Console.WriteLine(pattern.valiadtaeEmail(a));
+
+            string b = Console.ReadLine();
+            Console.WriteLine(pattern.validateMobileNumber(b));
         }
     }
 }
