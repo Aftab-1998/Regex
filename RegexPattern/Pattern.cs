@@ -18,5 +18,10 @@ namespace RegexPattern
         }
 
 
+        public static string LAST_NAME_REGEX = "^[A-Z]{1}[A-Za-z]{2,}$"; //Roy
+        public bool validateLastName(string lname)
+        {
+            return Regex.IsMatch(lname, LAST_NAME_REGEX);
+        }
     }
 }
