@@ -8,14 +8,18 @@ namespace RegexPattern
             Pattern pattern = new Pattern();
             // Console.WriteLine(pattern.validateFirstName("Raj"));
 
-            Console.WriteLine(pattern.validateLastName("Roy"));
+           // Console.WriteLine(pattern.validateLastName("Roy"));
 
-           // string a = Console.ReadLine();
+            //string a = Console.ReadLine();
 
-           // Console.WriteLine(pattern.valiadtaeEmail(a));
+            //Console.WriteLine(pattern.valiadtaeEmail(a));
 
-            string b = Console.ReadLine();
-            Console.WriteLine(pattern.validateMobileNumber(b));
+            //string b = Console.ReadLine();
+            //Console.WriteLine(pattern.validateMobileNumber(b));
+
+            string c = Console.ReadLine();
+            Console.WriteLine(pattern.validatePaswordRule1(c));
         }
+
     }
 }
