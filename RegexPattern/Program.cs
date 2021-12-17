@@ -8,7 +8,7 @@ namespace RegexPattern
             Pattern pattern = new Pattern();
             // Console.WriteLine(pattern.validateFirstName("Raj"));
 
-           // Console.WriteLine(pattern.validateLastName("Roy"));
+            // Console.WriteLine(pattern.validateLastName("Roy"));
 
             //string a = Console.ReadLine();
 
@@ -17,8 +17,11 @@ namespace RegexPattern
             //string b = Console.ReadLine();
             //Console.WriteLine(pattern.validateMobileNumber(b));
 
-            string c = Console.ReadLine();
-            Console.WriteLine(pattern.validatePaswordRule1(c));
+            //string c = Console.ReadLine();
+            //Console.WriteLine(pattern.validatePaswordRule1(c));
+
+            string d = Console.ReadLine();
+            Console.WriteLine(pattern.validatePaswordRule2(d));
         }
 
     }

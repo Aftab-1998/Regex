@@ -19,12 +19,14 @@ namespace RegexPattern
 
 
         public static string LAST_NAME_REGEX = "^[A-Z]{1}[A-Za-z]{2,}$"; //Roy
+
+        // method for last name
         public bool validateLastName(string lname)
         {
             return Regex.IsMatch(lname, LAST_NAME_REGEX);
 
         }
-        public static string REGEX_EMAIL = "^[a-zA-Z0-9.]+@[A-Za-z0-9]+.[A-Za-z]{2,4}$";
+        public static string REGEX_EMAIL = "^[a-zA-Z0-9.]+@[A-Za-z0-9]+.[A-Za-z]{2,4}$"; //alam41976@gmail.com
 
         //Method for email address
         public bool valiadtaeEmail(string email)
@@ -45,6 +47,14 @@ namespace RegexPattern
         public bool validatePaswordRule1(string prule1)
         {
             return Regex.IsMatch(prule1, REGEX_PASSWORDRULE1);
+        }
+
+        // method for passwordrule2
+        public static string REGEX_PASSWORDRULE2 = "^([A-Z])*[!@#$%^&*]{1}([a-zA-Z0-9])*$"; //A@123af
+        
+        public bool validatePaswordRule2(string prule2)
+        {
+            return Regex.IsMatch(prule2, REGEX_PASSWORDRULE2);
         }
 
     }
