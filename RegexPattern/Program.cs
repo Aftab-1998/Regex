@@ -22,6 +22,7 @@ namespace RegexPattern
 
             //string d = Console.ReadLine();
             //Console.WriteLine(pattern.validatePaswordRule2(d));
+
             string e = Console.ReadLine();
             Console.WriteLine(pattern.validatePaswordRule3(e));
         }
