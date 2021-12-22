@@ -23,9 +23,11 @@ namespace RegexPattern
             //string d = Console.ReadLine();
             //Console.WriteLine(pattern.validatePaswordRule2(d));
 
-           // string e = Console.ReadLine();
-            
-          // Console.WriteLine(pattern.validatePaswordRule3(e));
+            // string e = Console.ReadLine();
+
+            // Console.WriteLine(pattern.validatePaswordRule3(e));
+
+
 
             string f = Console.ReadLine();
             Console.WriteLine(pattern.validatePaswordRule4(f));
