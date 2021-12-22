@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -55,6 +55,14 @@ namespace RegexPattern
         public bool validatePaswordRule2(string prule2)
         {
             return Regex.IsMatch(prule2, REGEX_PASSWORDRULE2);
+        }
+
+        //Method For Paasword Rule-3
+
+        public static string PASSWORD_RULE3_REGEX = "^([a-zA-Z0-9])[!@#$%^&]{1}([a-zA-Z0-9])*$"; // At least 1 Numeric Number And All Rules Must Be Passed
+        public bool validatePaswordRule3(string prule3)
+        {
+            return Regex.IsMatch(prule3, PASSWORD_RULE3_REGEX);
         }
 
     }
