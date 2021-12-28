@@ -27,10 +27,11 @@ namespace RegexPattern
 
             // Console.WriteLine(pattern.validatePaswordRule3(e));
 
+            //string f = Console.ReadLine();
+            //Console.WriteLine(pattern.validatePaswordRule4(f));
 
-
-            string f = Console.ReadLine();
-            Console.WriteLine(pattern.validatePaswordRule4(f));
+            string g = Console.ReadLine();
+            Console.WriteLine(pattern.validateEmailSample(g));
         }
 
     }

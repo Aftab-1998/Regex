@@ -66,14 +66,19 @@ namespace RegexPattern
         }
         //Method For Paasword Rule-4
 
-
-
-
         public static string PASSWORD_RULE4_REGEX = "^([a-zA-Z0-9])[!@#$%^&]{1}([a-zA-Z0-9])*$"; // Has Exactly 1 Special Characters And All Rules Must Be Passed
         public bool validatePaswordRule4(string prule4)
         {
             return Regex.IsMatch(prule4, PASSWORD_RULE4_REGEX);
         }
+        // Method of All Email Sample
+        public static string CLEAR_ALL_EMAIL_SAMPLE_REGEX = "^[a-z]{3,}[_+-.]{0,1}[a-z]{3,}[@][a-z]{2,}[.][a-z]{2}[.][a-z]{2}"; // abc-100@yahoo.com
+
+        public bool validateEmailSample(string Emailsample)
+        {
+            return Regex.IsMatch(Emailsample, CLEAR_ALL_EMAIL_SAMPLE_REGEX);
+        }
+
 
     }
 }
